@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejerciciodediccionario</title>
+</head>
+<body>
+    <div>
+        <h3>DICCIONARIO DE HTML</h3>
+    </div>
+            <!-- Ejemplo1: DIVISIONES <div> -->
+    <div> 
+         <div>  <!--Las divisiones sirven para agrupar elementos y hacer divisiones--> 
+            <p>El hombre es fuego; la mujer, estopa; llega el diablo y sopla.</p>
+            <p>Para el amor y la muerte, no hay cosa mas fuerte.</p>
+            <p>Viejo el pajar, malo de encender y peor de apagar.</p>
+        </div>
+    
+        <div>
+            <p>¿Enseñas sin saber? como sea el culo, no sé qué.</p>
+            <p>Practicar hace al maestro; que no leer en el cuaderno.</p>
+            <P>Lo que natura no da, salamanca no presta.</P> 
+        </div>
+    </div>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 2  SALTO DE LÍNEA: <br>-->
+    <p>Tristes guerras<br/> <!-- Se reflejar los saltos de linea-->
+    si no es amor la empresa.<br/>
+    Tristes. Tristes.</p>
+
+    <p>Tristes armas<br/>
+    si no son las palabras.<br/> 
+    Tristes. Tristes.</p>
+
+    <p>Tristes hombres<br/>
+    si no mueren de amores.<br/>
+    Tristes. Tristes</p>
+
+    <p>============================================================================================</p>
+           
+            <!-- Ejemplo 3 OTROS SIGNIFICADOS: <span> -->
+    <p><span class="personaje">Superman</span> vive en <span class="lugar">Metrópolis</span> y 
+    tiene muchos superpoderes:
+    <span class="superpoder">superinvisibilidad</span>,
+    <span class="superpoder">supermentalidad</span>,etc.</p>
+    <!--El span no tiene un significado definido pero se utiliza cuando otras etiquetas no son adecuadas-->
+
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 4 ÉNFASIS: <em>-->
+    <p>Es la <em>última</em> vez que te lo digo.</p>
+    <!--Solo hace que la letra quede en cursiva-->
+    
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 5 IMPORTANTE: <strong>-->
+    <p>Acuérdate de apagar las luces y <strong>cerrar la puerta con llave</strong> al salir de casa.</p>
+    <!--Hace que la frase o el texto quede en negritas fuertes para demostrar la importancia -->
+
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 6 COMENTARIO: <small>-->
+    <p>PVP: 999€ <small>(IVA no incluido)</small>.</p>
+    <!--Se hace mas choquita la frase o palabra como una palabra secundaria no tan importante -->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 7 INCORRECTO: <s>-->
+    <s>La etiqueta &lt;s&gt; estaba desaconsejada en HTML 4.</s> 
+    En HTML 5 la etiqueta &lt;s&gt; se usa para marcar información obsoleta.
+    <!--Lo que hace es tachar o poner una ralla encima del texto o palabra-->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 8 OBRA: <cite>-->
+    <p>El primer libro de Milan Kundera que leí fue <cite>la vida está en otra parte</cite>.</p>
+    <!--Casi hace lo mismo que la etiqueta <em> ya que deja en cirsiva la frase pero se utiliza mas en titulos-->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 9 DEFINICIÓN: <dfn>-->
+    <p>Un <dfn>byte</dfn>con ocho bits.</p>
+    <!--Deja en cursiva -->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 10 ABREVIATURA: <abbr>-->
+    <p>Sitúa el cursor del ratón sobre la abreviatura <abbr title="cónfer (compárese, véase)">cf</abbr> para ver su significado</p>
+    <!--Abrevia la palabra -->
+
+    
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 11 FECHA Y HORA: <time>-->
+    <p>La recomendación HTML 5 se aprobó el <time datetime="2014-10-28">28 de octubre de 2014</time>.</p>
+    <!--puede tomar valores de fecha y hora-->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 12 TECLADO: <kbd>-->
+    <p>En los navegadores, pulsando <kbd>Ctrl+t</kbd> se abre una nueva pestaña.</p>
+    <!--Es sobremarcar o identificar que se pueden hacer teclas dentro de un texto-->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 13 SUBÍNDICE: <sub>-->
+    <p>2 H<sub>2</sub> + 0 <sub>2</sub> &rarr; 2 H<sub>2</sub>0</p>
+    <!--Hace diminuto el texto o numero,marcada subindice-->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 14 SUPERÍNDICE: <sup>-->
+    <p>El ultimo teorema de Fermant dice que la ecuación X<sup>n</sup> + y<sup>n</sup> = Z<sup>n</sup> no tiene soluciones enteras para <var>x</var>, <var>y</var> y<var> z</var> cuando <var>n</var> &gt; 2.</p>
+    <!--Hace los letras o numero se formen como un exponente-->
+
+    <p>============================================================================================</p>
+            <!-- Ejemplo 15 TECNICISMO: <i>-->
+    <p>El nombre cientifico del perro es <i>canis lupus</i>.</p>
+    <!--Hace que la letra este cursiva -->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 16 ATENCIÓN: <b>-->
+    <p>Polillas que se destacan,<br/>
+    <b>Nopol</b>, <b>Nopol</b>, <b>Nopol</b> las mata.</p>
+    <!--Hace que la letra quede en negrita-->
+
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 17 RESALTADO POSTERIOR: <mark>-->
+    <p>La primera frase  de la recomendación HTML 5 es <q>The World Wide Webs markup language has <mark>always</mark> been HTML</q></p>
+    <!--Su labor es subrayar alguna palabra -->
+    
+    <p>============================================================================================</p>
+    
+            <!-- Ejemplo 18 IMAGENES-->
+    <img src="Panda.jpg" alt="error" width="80px"> 
+    <!--Coloca las imagenes y su tipo de medida-->
+
+    <p>============================================================================================</p>
+        
+            <!-- Ejemplo 19 IMAGENES:EL ATRIBUTO src DE <img>-->
+    <img             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Lightning_McQueen_%2834615708803%29.jpg/1200px-Lightning_McQueen_%2834615708803%29.jpg" alt="Imagen del Rayo Mcqueen" width="150px"> 
+    <!--Coloca las imagenes con el enlace directo-->
+    
+    <p>============================================================================================</p>
+      
+            <!-- Ejemplo 20 IMAGENES:EL ATRIBUTO alt DE <img>-->
+     <img  src="Tux.jpg" alt="Tux, el pingÜino" width="150px">
+     <img  src="Tux2.jpg" alt="Tux, el pingÜino" width="150px"> 
+      <!--El alt hace que cuando la imagen no aparezca diga el texto que se coloca-->
+      
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 21: LA ETIQUETA <a> -->
+    <p>Enlace a la <a href="https://www.utmerida.edu.mx/en">pagina oficial de la UTM</a> .</p> 
+    <!--El a va con href sirve para que en HTML identifique una URL donde el destino conduce el enlace.Y marca lo que dira encima de dicha URL-->
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 22: SUPRIMIDO: <del>-->
+    <p>Internet Explorer 6 era un navegador bastante <del>malo</del> mejorable.<br> Internet Explorer 7 cumplía mejor
+    las recomendaciones del W3C</p>
+    <!--Hace que tache la palabra como herronia-->
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 23 AÑADIDO: <ins>-->
+    <p>La verdad es que Microsoft podría haber mejorado antes su navegador<ins>, respetando las recomendaciones del W3C</ins>.</p>
+    <!--Subraya con una raya en la parte de abajo-->
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 24 LISTAS ORDENADAS Y NO ORDENADAS-->
+    <ol><!--Por medio de este elemento indicamos si realizamos listas agrupadas o no agrupadas-->
+        <li>La libertad de usar el programa, con cualquier propósito.</li>
+        <li>La libertad de estudiar como funciona el programa y adaptarlo a tus necesidades.</li>
+        <li>La libertad de distribuir copias del programa.</li>
+        <li>La libertad de mejorar el programa y hacer públicas las mejoras a los démas.</li>
+    </ol>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 25 LISTAS DE DEFINICIÓN-->
+    <dl> 
+        <dt>Software</dt> 
+        <dd>Conjunto de programas, intrucciones y reglas informaticas para ejecutar ciertas tareas en una coputadora.</dd>
+        <dt>Libre</dt>
+        <dd>Que tiene la facultad para obrar o no obrar.</dd>
+        <dd>Que no es esclavo</dd>
+        <dd>Que no está preso</dd>
+        <dd>Licencioso,</dd>
+    </dl>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 26 ANIDAMIENTO-->
+    <ol>
+        <li>Item 1</li> 
+        <ol>
+            <li>Item 1 de sublista</li><!--Aca comenzamos con el anidadamiento-->
+            <ol>
+                <li>Item 1 de sub-sublista</li><!--Aca hacemos otro anidadamiento de un una lista que ya estaba anidada-->
+                <li>Item 2 de sub-sublista</li>
+            </ol>
+            <li>Item 2 de sublista</li>
+            <ol>
+                <li>Item 1 de sub-sublista</li>
+                <li>Item 2 de sub-sublista</li>
+            </ol>
+            <li>Item 3 de sublista</li>
+            <li>Item 4 de sublista</li>
+        </ol>
+        <li>Item 2</li>
+        <ol>
+            <li>Item de sublista</li>
+            <li>Item de sublista</li>
+        </ol>
+    </ol>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 27 TABLAS -->
+    <table border="1" >
+        <caption>Ejemplo de tabla</caption>
+        <tbody>
+            <tr>
+                <td></td> 
+                <th>A</th> 
+                <th>B</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>A1</td>
+                <td>B1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>A2</td>
+                <td>B2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>============================================================================================</p>
+            <!-- Ejemplo 28 TABLAS: LEYENDA (<caption>) -->
+     <table border="1" >
+        <caption>Liga de <strong>Fútbol</strong> mexicano - Resultados de la primera división</caption>
+        <tbody>
+            <tr>
+                <td></td> 
+                <th>2003/2004</th> 
+                <th>2004/2005</th>
+            </tr>
+            <tr>
+                <td>Campeón</td>
+                <td>F.C. Guadalajara</td>
+                <td>F.C. UNAM</td>
+            </tr>
+            <tr>
+                <td>Subcampeón</td>
+                <td>F.C. Cruz Azul</td>
+                <td>F.C. America</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>============================================================================================</p>
+             <!-- Ejemplo 29 TABLAS: CUERPOS DE TABLA (<tbody>), ENCABEZADOS (<thead>) Y
+PIES (<tfoot>) -->
+     <table border ="2">
+        <caption>Ejemplo de tabla</caption>
+        <thead>
+            <tr>
+                <th>País</th> 
+                <th>Capital</th> 
+                <th>Moneda</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                        <td>Reino de España</td>
+                        <td>Madrid</td>
+                        <td>Euro</td>
+                </tr>
+                <tr>
+                        <td>Estados Unidos Mexicanos</td>
+                        <td>Ciudad de México</td>
+                        <td>Peso</td>
+                </tr>
+                <tr>
+                        <td>República Argentina</td>
+                        <td>Buenos Aires</td>
+                        <td>Peso</td>
+                </tr>
+        </tbody>
+        <tfoot>
+                <tr>
+                        <th>País</th>
+                        <th>Capital</th>
+                        <th>Moneda</th>
+                </tr>
+        </tfoot>
+    </table>
+
+    <p>============================================================================================</p> 
+    
+    <!-- Ejemplo 30 FORMULARIOS-->
+        <form action="ejemplo.php" method="get">
+            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>Sexo:  
+            <input type="radio" name="hm" value="h"> Hombre 
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+        </form>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 31  EL ATRIBUTO required-->
+        <p>Sexo
+            <input type="radio" name="hm" value="h" required>Hombre <!--El atributo requiered permite indicar qué controles es obligatorio rellenar para enviar el formulario
+            en este caso si alguna de las opciones de un botón radio tiene establecido el atributo requiered, el control es obligatorio-->
+            <input type="radio" name="hm" value="m" required>Mujer
+        </p>
+        <p>Edad:
+            <input type="radio" name="edad" value="menor"> Menor
+            <input type="radio" name="edad" value="adulto" required>Adulto
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 32: EL ATRIBUTO placeholder -->
+        <p>
+            Apellidos:
+            <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos"> <!--El atributo placeholder nos permite mostrar en los controles de texto un texto que desaparecera al escribir en el control-->
+        </p>
+
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 33: EL ATRIBUTO size -->
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Apellidos: <input type="text" name="apellidos" size="40"></p>
+        <p>Nacionalidad: <input type="text" name="nacionalidad" size="20"></p>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 34:  LOS ATRIBUTOS maxlength Y minlength-->
+        <p>Usuario: <input type="text" name="usuario" maxlength="6"></p>
+        <!-- El atributo disabled permite desabilitar el control. Una vez desabilitado, el control ni siquiera puede recoger el foco -->
+        <p>Constraseña: <input type="password" name="password" maxlength="6"></p>
+        <p><input type="submit" value="Enviar"></p>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 35 EL ATRIBUTO disabled-->
+            <input type="submit" value="Enviar" disabled>
+            <input type="text" name="texto" disabled>
+    
+    <p>============================================================================================</p>
+            <!-- Ejemplo 36 EL ATRIBUTO readonly -->
+        <input type="text" name="name" value="¡A que no me cambias!" readonly>
+        <!-- El atributo readonly hace que el control no se modifique, aunque el control puede recoger el foco -->
+        <input type="text" name="texto" placeholder="¡A que no me cambias!" readonly>
+
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 37 EL ATRIBUTO tabindex -->
+        <input type="text" name="texto1" placeholder="Texto 1" tabindex="1">
+        <input type="text" name="texto2" placeholder="Texto 2" tabindex="2">
+        <input type="text" name="texto3" placeholder="Texto 3" tabindex="3">
+        <input type="text" name="texto4" placeholder="Texto 4" tabindex="4">
+
+    <p>============================================================================================</p>
+   
+            <!-- Ejemplo 38 Botones: input y button -->
+    <input type="button" value="Este botón no hace nada"> 
+    
+    <p>============================================================================================</p>
+
+            <!-- Ejemplo 39 Botones: input y button -->
+        <button type="button">
+            <img src="images.jpg" alt="cdlibre.org" width="32" height="32" style="vertical-align: middle;">
+            Este botón no hace nada
+        </button>
+    
+    <p>============================================================================================</p>
+            
+            <!-- Ejemplo 40: Botones submit Mediante <input y button -->
+            <input type="submit" value="Enviar">
+
+            <button type="submit">
+                <img src="Otra palomita.png" alt="imagen" width="32" height="32" style="vertical-align:middle;">
+                Enviar
+            </button>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 41: BOTONES RESET MEDIANTE <input> 0 <button>-->
+                <input type="reset" value="Borrar"> 
+
+            <button type ="reset">
+                <img src="Borrar.jpg" alt="imagen" width="32" height="32" style="Vertical-align: middle">
+                Borrar
+            </button>
+    <p>============================================================================================</p>
+            
+                <!--Ejemplo 42: BOTÓN GENERAL MEDIANTE <input> O <button>-->
+                <input type="button" onclick="men=saje ('Ha pulsado el boton')" value="Boton">
+                
+                <script>
+                    function mensaje(texto) {
+                        alert(texto);
+                    }   
+                </script>
+
+                <button tupe="button" onclick="mensaje('Ha pulsado el boton')" value="Boton">
+                    <img  src="question.jpg"  alt="imagen"  width="32"  height="32" style="vertical-align: middle;">
+                    Botón
+                </button>
+
+                <script>
+                    function mensaje(texto){
+                        alert(texto)
+                    }
+                </script>
+    <p>============================================================================================</p>
+        
+            <!--Ejmplo 43: CAJA DE TEXTO: <input type="text">-->
+            <input type="Text" name="Texto" placeholder="Escriba algo">
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 44: CAJA DE TEXTO DE CONTRASEÑA: <input type="password">-->
+            <p> Contraseña: <input type="password" name="Contraseña" minlength="6"></p>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 45: NÚMERO: <input type="number">-->
+            <p>Escriba un número: <input type = "number" name="numero"></p>
+
+    <p>============================================================================================</p>
+        
+            <!--Ejemplo 46:BÚSQUEDA: <input type="search">-->
+            <p>Búsqueda: <input type="search" name="Búsqueda" size="40"></p>
+            
+    <p>============================================================================================</p>       
+            
+            <!--Ejemplo 47: TELÉFONO: <input type="tel">-->
+            <p>Teléfono: <input type="tel" name="telefono"></p>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 48: URL: <INPUT TYPE="URL">-->
+            <p>URL: <input type="url" name="dirección" size="40"></p>
+
+    <p>============================================================================================</p>
+            
+            <!--eJEMPLO 49: DIRECCIÓN DE CORREO ELECTRÓNICO: <input type="email">-->
+            <p>Correo: <input type="email" name="correo" size="40"></p>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 50: FECHA: <input type="date">-->
+            <p>Fecha: <input type="date" name="fecha"></p>
+
+    <p>============================================================================================</p>
+           
+            <!--Ejemplo 51: MES: <input type="month">-->
+            <p>Mes: <input type="month" name="mes"></p>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 52: SEMANA: <input type="week">-->
+            <p>Semana: <input type="week" name="Semana"></p>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 53: HORA: <input type="time">-->
+            <p>Hora: <input type="time" name="hora"></p>
+
+    <p>============================================================================================</p>
+    
+            <!--Ejemplo 54: CASILLA DE VERIFICACIÓN: <input type="checkbox">-->
+            <input type="checkbox" name="Casilla">Casilla 1
+
+            <input            type="checkbox"
+                              name="Casilla"        value="hola">Casilla 1 <br>
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 55: BOTÓN RADIO: <input type="radio">-->
+
+            <input  type="radio"   name="boton"  value="1">Opcion 1 <br>
+            <input  type="radio"   name="boton"  value="2">Opcion 2 <br>
+            <input  type="radio"   name="boton"  value="3">Opcion 3 <br>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 56: SELECTOR DE COLOR: <input type="color">-->
+            <input type="color"  name="colorElegido"  value="#3399FF"> 
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 57: RANGO: <input type="range">-->
+            <p>Indique su nivel ( de 0 a 1, de 0,1 en 0,1):<input type="range"  name="rango"  min="0"  max="1" step="0.1"></p>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 58: SELECTOR DE ARCHIVO: <input type="file">-->
+            <input type="file" name="archivo"><br>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 59: IMAGEN: <input type="image">-->
+            <p>Haga clic en el circulo negro o fuera de el:<input type="image"  name="punto"  src="punto.jpg"  alt="punto" width="50"  height="50"></p>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 60: CONTROL OCULTO: <input type="hidden">-->
+            <input type="hidden" name="nombre" value="Karen">
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 61: ÁREA DE TEXTO: <textarea>-->
+            <textarea  name="Texto"  rows="5"   cols="50">Escriba lo que sea</textarea><br>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 62: MENÚ: <select>-->
+            <p>Seleccione una opcion:
+            <select name="Manu">
+                <option value=>...</option>
+                <option value="1">Perros</option> 
+                <option value="2">Pizza</option> 
+                <option value="3">Pasta</option>
+                <option value="4">Hamburguesas</option>
+            </select> 
+            </p>
+
+            <p>Seleccione una opcion:
+            <select name="Manu">
+                <option selected>...</option>
+                <optgroup label="Grupo1"> 
+                    <option value="1">Pizza</option> 
+                    <option value="2">Pasta</option>
+                    <option value="3">Hamburguesas</option>
+                </optgroup> 
+                <optgroup label="Grupo2"> 
+                    <option value="4">Chocolate</option> 
+                    <option value="5">Pay</option>
+                    <option value="6">Flan</option>
+                </optgroup> 
+            </select>
+            </p>
+    <p>============================================================================================</p>
+            <!--Ejemplo 63: GRUPOS DE CONTROLES: <fieldset>-->
+                <fieldset>
+                    <legend>Datos personales</legend> 
+                    <p>Nombre: <input type="text"  name="nombre"  size="30"></p>
+                    <p>Edad: <input type="number"  name="edad"></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Cultura General</legend>
+                    <p>Capital de Noruega:
+                        <input type="radio" name="p1" value="1">Copenhague
+                        <input type="radio" name="p1" value="2">Helsinki
+                        <input type="radio" name="p1" value="3">Oslo
+                    </p>
+                    <p>Fecha de la revolución francesa:</p>
+                        <input type="radio" name="p2" value="1">1435
+                        <input type="radio" name="p2" value="2">1883
+                        <input type="radio" name="p2" value="3">2023
+                </fieldset>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 64: RELACIÓN IMPLÍCITA-->
+            <label><input   type="checkbox"    name="Casilla">Casilla 1</label><br>
+
+            <laber>Nombre: <input type="text"  name="Casilla"></laber><br>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 65: RELACIÓN EXPLÍCITA: EL ATRIBUTO for-->
+            <input  type="checkbox"  name="casilla"  id="casilla1">
+            <label for="casilla1">Casilla 1</label><br>
+
+            <label for="text1">Nombre:</label>
+            <input type="text"  name="casilla"  id="text1">
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 66:DETALLES <details>-->
+            <p>En la Universidad Autonoma de Yucatan...</p>
+
+            <details>
+                <summary>Spoiler</summary>
+                <p>La calidad de estudio y de grandes maestros disminuyo con el paso del tiempo</p>
+            </details>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 67: RESUMEN <summary>-->
+            <p>El oso panda gigante (Ailuropoda melanoleuca) es un insaciable devorador de bambú. Un ejemplar medio se pasa la mitad del día comiendo (literalmente, 12 de cada 24 horas) y hace sus necesidades docenas de veces al día. Hacen falta 12,5 kilogramos de bambú para cubrir las necesidades alimenticias diarias de un panda gigante, que arranca ansiosamente los tallos con los alargados huesos de sus muñecas, usándolos a modo de pulgares. Ocasionalmente también comen pájaros o roedores.</p>
+
+            <details>
+                <ul> 
+                    <li>Bambu: Comida de los pandas</li>
+                    <li>Extinccion: Cuando se va desapareciendo su especie</li>
+                    <li>WWF: Pagina que habla de los animales</li>
+                </ul>
+            </details>
+
+    <p>============================================================================================</p>
+
+            <!--Ejemplo 68: VENTANA DE DIÁLOGO <dialog>-->
+            <dialog id="dialog=1">
+                <h1>VENTANA DE DIALOGO</h1>
+
+                <p>Ejemplo de la ventana</p>
+                
+                <p> 
+                    <input  type="button"  value="cerrar" onclick="document.getElementById('dialog-1').removeAttribute('open')">
+                </p>
+            </dialog>
+
+            <p>
+                <input type="button"  value="Muestra del dialogo"  onclick="document.getElementById('dialog-1').setAttribute('open','open')">
+
+            </p><br>
+
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 69: INSERTAR UNA PÁGINA WEB---CHECAR-->
+            <object
+                type="text/html"
+                data="Hojadevida.html"
+                style="width: 1000px; height: 500px">
+            </object><br>
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 70: INSERTAR UN VÍDEO DE YOUTUBE-->
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=KCdf5Gb2OmY&ab_channel=Paulettee" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div><br>
+    <p>============================================================================================</p>
+            
+            <!--Ejemplo 71: INSERTAR UN ARCHIVO PDF-->
+            <object
+                type="application/pdf"
+                data="Material.Tema.2.2.pdf"
+                style="width: 1000px; height: 550px;">
+            </object>
+
+            <link rel="icon" type="image/vnd.microsoft.icon" href="imagen.ico">
+
+</body>
+</html>
